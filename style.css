@@ -1,11 +1,10 @@
-body{
-  font-family:  'sans-serif';
- 
+body {
+  font-family: "sans-serif";
 }
 * {
   margin: 0px;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 /* @media (max-width: 75em) {
@@ -40,98 +39,96 @@ html{
 #heading {
   color: white;
   font-size: 50px;
-  
 }
 #subheading {
   color: #be3144;
   font-size: 30px;
   font-style: italic;
 }
-.body2{
-    padding-top: 40px;
-    text-align: center;
-    background-color:#45567d;
-    color: white;
-    height: 100%;
-    width: 100%;    
+.body2 {
+  padding-top: 40px;
+  text-align: center;
+  background-color: #45567d;
+  color: white;
+  height: 100%;
+  width: 100%;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding: 40px;
-    gap: 35px;
-  }
-  .grid-item {
-    background-color: rgba(23, 22, 22, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    /* padding: 20px; */
-    font-size: 30px;
-    text-align: center;
-  }
-  .item1{
-    margin:0px;
-    padding: 0px;
-  }
-  .img{
-    height: 300px;
-    width:100%;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  /* .card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+  gap: 35px;
+}
+.grid-item {
+  background-color: rgba(23, 22, 22, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* padding: 20px; */
+  font-size: 30px;
+  text-align: center;
+}
+.item1 {
+  margin: 0px;
+  padding: 0px;
+}
+.img {
+  height: 300px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* .card{
     margin: 0px;
     padding: 0px;
   }  */
-  #pro{
-    border-bottom: 2px solid white;
-    font-size: 40px;
-    color: white;
-    margin-top: 30px;
-  }
-.pt{
-    display: flex;
-    margin:20px;
-    font-size: 22px;
-    text-align: center;
-    justify-content: center;
+#pro {
+  border-bottom: 2px solid white;
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
 }
-.flex2{
-    display: flex;
-    flex-direction: column;
+.pt {
+  display: flex;
+  margin: 20px;
+  font-size: 22px;
+  text-align: center;
+  justify-content: center;
 }
-.hover{
-    display: none;
-    font-size: 30px;
-    font-weight: bold;
+.flex2 {
+  display: flex;
+  flex-direction: column;
 }
-.pt:hover .hover{
-    display: block;
-    color: #be3144;
-    
+.hover {
+  display: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pt:hover .hover {
+  display: block;
+  color: #be3144;
 }
 /* .grid-container:hover .hover{
     display: block;
 } */
-.btn{
-    padding: 18px;
-    font-size: 15px;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(49, 46, 46);
-    border: 1px solid rgb(49, 46, 46);;
+.btn {
+  padding: 18px;
+  font-size: 15px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(49, 46, 46);
+  border: 1px solid rgb(49, 46, 46);
 }
-.btn:hover{
-    background-color: #be3144;
-    border: 1px solid #be3144;
+.btn:hover {
+  background-color: #be3144;
+  border: 1px solid #be3144;
 }
-.body3{
-    color: rgb(251, 248, 248);
-    font-size: 60px;
-    font-family: 'Raleway', 'sans-serif';
+.body3 {
+  color: rgb(251, 248, 248);
+  font-size: 60px;
+  font-family: "Raleway", "sans-serif";
 }
-.sub{
+.sub {
   font-size: 18px;
   margin-top: 10px;
   font-style: italic;
@@ -146,20 +143,20 @@ html{
   height: 100vh;
   width: 100%;
 }
-.socialMedia{
+.socialMedia {
   display: flex;
   flex-direction: row;
 }
-.socialSource{
+.socialSource {
   padding: 20px;
   margin-top: 40px;
   font-size: 24px;
   color: white;
 }
-.icon{
+.icon {
   margin-right: 5px;
 }
-.footer{
+.footer {
   font-weight: 300;
   display: flex;
   justify-content: space-evenly;
@@ -167,17 +164,16 @@ html{
   background-color: rgb(49, 46, 46);
   border-top: 4px solid #be3144;
   font-size: 22px;
-
 }
-.footer-text{
+.footer-text {
   font-size: 20px;
   color: white;
 }
-.iconFoot{
+.iconFoot {
   font-family: "Font Awesome 5 Brands";
   font-size: 17px;
 }
-.projectsHeading{
+.projectsHeading {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -186,8 +182,8 @@ html{
   justify-content: center;
   margin-bottom: 0px;
 }
-.pt:hover .code{
-  color: #BE3144;
+.pt:hover .code {
+  color: #be3144;
   margin: 0px 7px;
   font-weight: bold;
 }
@@ -195,7 +191,7 @@ html{
   color: rgb(49, 46, 46);
   transition: color 0.3s ease-out;
 }
-#links{
+#links {
   text-decoration: none;
   color: white;
 }
